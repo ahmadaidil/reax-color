@@ -1,10 +1,10 @@
 {
-  "name": "npm-reax-component",
+  "name": "reax-color",
   "version": "1.0.0",
-  "description": "a boilerplate to create react component",
+  "description": "react color picker component based on '🎨react-color'",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
-  "repository": "https://github.com/ahmadaidil/npm-reax-component.git",
+  "repository": "https://github.com/ahmadaidil/reax-color.git",
   "author": "Ahmad Aidil <ahmdaidil@gmail.com>",
   "license": "MIT",
   "scripts": {
