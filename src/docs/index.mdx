@@ -3,6 +3,7 @@ name: ColorPicker
 route: /
 ---
 import { Playground, Props } from 'docz'
+import ColorPicker from '../components/sketch'
 
 # ColorPicker
 
@@ -10,8 +11,8 @@ import { Playground, Props } from 'docz'
 
 <Playground>
   {() => (
-    <div>
-      Color Picker
-    </div>
+    <ColorPicker
+      onChange={(color) => console.log(color)}
+    />
   )}
 </Playground>
